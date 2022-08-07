@@ -1,0 +1,138 @@
+.main {
+  background: black;
+  height: 100vh;
+  padding: 100px;
+}
+.main-1 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.left_side {
+  background: linear-gradient(hsl(249, 93%, 26%), hsl(278, 80%, 24%));
+  width: 75%;
+  height: 100vh;
+}
+.left_side img {
+  width: 70%;
+  height: 30%;
+  object-fit: contain;
+  position: relative;
+  left: 250px;
+  top: 60px;
+}
+.front {
+  background-image: url(../interactive-card-details-form-main/images/bg-card-front.png);
+  background-size: contain;
+  position: relative;
+  background-repeat: no-repeat;
+  width: 70%;
+  height: 30%;
+  left: 150px;
+  top: 160px;
+  padding: 20px;
+}
+.front h1 {
+  font-size: 18px;
+  position: relative;
+  top: 30px;
+  color: hsl(270, 3%, 87%);
+  letter-spacing: 3px;
+}
+.front h2 {
+  font-size: 18px;
+  position: relative;
+  top: 20px;
+  color: hsl(270, 3%, 87%);
+}
+.front P {
+  font-size: 18px;
+  position: relative;
+  left: 200px;
+  bottom: 20px;
+  color: hsl(270, 3%, 87%);
+}
+.front_2 {
+  display: flex;
+  position: relative;
+}
+.circle_1 {
+  width: 35px;
+  height: 35px;
+  border-radius: 50px;
+  background: hsl(0, 0%, 100%);
+}
+.circle_2 {
+  width: 17px;
+  height: 17px;
+  border-radius: 17px;
+  border: 2px hsl(270, 3%, 87%) solid;
+  position: relative;
+  top: 10px;
+  left: 10px;
+}
+.right_side {
+  width: 150%;
+  height: 100vh;
+  background: hsl(0, 0%, 100%);
+}
+.main_side {
+  position: relative;
+  padding: 150px;
+  left: 60px;
+}
+.main_side h1,
+h2,
+h3 {
+  font-size: 10px;
+  color: hsl(278, 68%, 11%);
+  letter-spacing: 3px;
+}
+#name {
+  width: 80%;
+  height: 30px;
+
+  border: 1px hsl(279, 6%, 55%) solid;
+  border-radius: 5px;
+}
+#number {
+  width: 80%;
+  height: 30px;
+
+  border: 1px hsl(279, 6%, 55%) solid;
+  border-radius: 5px;
+}
+.date {
+  display: flex;
+  gap: 10px;
+}
+#exp {
+  width: 50px;
+  height: 30px;
+  border: 1px hsl(279, 6%, 55%) solid;
+  border-radius: 5px;
+}
+#mmy {
+  width: 50px;
+  height: 30px;
+  border: 1px hsl(279, 6%, 55%) solid;
+  border-radius: 5px;
+}
+#cvc {
+  width: 100px;
+  height: 30px;
+  border: 1px hsl(279, 6%, 55%) solid;
+  border-radius: 5px;
+}
+.btn {
+  width: 80%;
+  height: 40px;
+  position: relative;
+  top: 30px;
+  background: hsl(278, 68%, 11%);
+  border-radius: 5px;
+}
+.btn a {
+  text-decoration: none;
+  color: hsl(0, 0%, 100%);
+}

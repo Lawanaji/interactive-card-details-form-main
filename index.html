@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- displays site properly based on user's device -->
+
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./images/favicon-32x32.png"
+    />
+    <link rel="stylesheet" href="/style.css" />
+    <title>Frontend Mentor | Interactive card details form</title>
+
+    <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+    <style>
+      .attribution {
+        font-size: 11px;
+        text-align: center;
+      }
+      .attribution a {
+        color: hsl(228, 45%, 44%);
+      }
+    </style>
+  </head>
+  <body>
+    <div class="main">
+      <div class="main-1">
+        <div class="left_side">
+          <div class="front">
+            <div class="front_2">
+              <div class="circle_1"></div>
+              <div class="circle_2"></div>
+            </div>
+            <h1>9591 6589 6389 101E</h1>
+            <h2>Lawan Aji</h2>
+            <p>09/00</p>
+          </div>
+          <img
+            src="interactive-card-details-form-main/images/bg-card-back.png"
+            alt=""
+          />
+        </div>
+        <div class="right_side">
+          <div class="main_side">
+            <h1>CARD HOLDER NAME</h1>
+            <input
+              type="text"
+              name=""
+              id="name"
+              placeholder="Cardholder Name e.g. Jane"
+            />
+            <!-- <div class="name_1">Lawan Aji</div> -->
+            <h2>CARD NUMBER</h2>
+            <input
+              type="text"
+              name=""
+              id="number"
+              placeholder="  0000 0000 0000 0000"
+            />
+            <div class="card"></div>
+            <h3>EXP. DATE (MM/YY) cvc</h3>
+            <div class="date">
+              <input type="text" name="" id="exp" placeholder="MM" />
+              <input type="text" name="" id="mmy" placeholder="YY" />
+              <input type="text" name="" id="cvc" placeholder=" e.g. 123" />
+            </div>
+            <!-- Jane Appleseed 00/00 000 Appleseed Card Number e.g. 1234 5678 9123
+            0000 Exp. Date (MM/YY) MM CVC Confirm -->
+            <button class="btn"><a href="">Confarm</a></button>
+          </div>
+        </div>
+
+        <!-- Completed state start -->
+
+        Thank you! We've added your card details Continue
+      </div>
+    </div>
+
+    <div class="attribution">
+      Challenge by
+      <a href="https://www.frontendmentor.io?ref=challenge" target="_blank"
+        >Frontend Mentor</a
+      >. Coded by <a href="#">Lawan Aji</a>.
+    </div>
+  </body>
+</html>
